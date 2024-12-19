@@ -1,0 +1,112 @@
+{
+    "entries": [
+        {
+            "containerID": 1,
+            "entityType": 64,
+            "entityInstance": 1,
+            "sensorOffset": 0,
+            "stateSetId": 1,
+            "event_states": [0, 1, 2],
+            "dbus": {
+                "object_path": "/xyz/abc/def",
+                "interface": "xyz.openbmc_project.example1.value",
+                "property_name": "value1",
+                "property_type": "string",
+                "property_values": [
+                    "xyz.openbmc_project.State.Normal",
+                    "xyz.openbmc_project.State.Critical",
+                    "xyz.openbmc_project.State.Fatal"
+                ]
+            }
+        },
+        {
+            "containerID": 1,
+            "entityType": 64,
+            "entityInstance": 1,
+            "sensorOffset": 1,
+            "stateSetId": 1,
+            "event_states": [2, 3],
+            "dbus": {
+                "object_path": "/xyz/abc/def",
+                "interface": "xyz.openbmc_project.example2.value",
+                "property_name": "value2",
+                "property_type": "uint8_t",
+                "property_values": [9, 10]
+            }
+        },
+        {
+            "containerID": 2,
+            "entityType": 67,
+            "entityInstance": 2,
+            "sensorOffset": 0,
+            "stateSetId": 1,
+            "event_states": [0, 1],
+            "dbus": {
+                "object_path": "/xyz/abc/ghi",
+                "interface": "xyz.openbmc_project.example3.value",
+                "property_name": "value3",
+                "property_type": "bool",
+                "property_values": [false, true]
+            }
+        },
+        {
+            "containerID": 2,
+            "entityType": 67,
+            "entityInstance": 2,
+            "sensorOffset": 0,
+            "stateSetId": 2,
+            "event_states": [0, 1, 2],
+            "dbus": {
+                "object_path": "/xyz/abc/jkl",
+                "interface": "xyz.openbmc_project.example4.value",
+                "property_name": "value4",
+                "property_type": "string",
+                "property_values": ["Enabled", "Disabled", "Auto"]
+            }
+        },
+        {
+            "entityType": 120,
+            "entityInstance": 2,
+            "sensorOffset": 0,
+            "stateSetId": 2,
+            "event_states": [0, 1, 2],
+            "dbus": {
+                "object_path": "/xyz/abc/mno",
+                "interface": "xyz.openbmc_project.example5.value",
+                "property_name": "value5",
+                "property_type": "string",
+                "property_values": ["Enabled", "Disabled", "Auto"]
+            }
+        },
+        {
+            "entityType": 120,
+            "containerID": 10,
+            "entityInstance": 2,
+            "sensorOffset": 0,
+            "stateSetId": 2,
+            "event_states": [0, 1, 2],
+            "dbus": {
+                "object_path": "/xyz/abc/opk",
+                "interface": "xyz.openbmc_project.example6.value",
+                "property_name": "value6",
+                "property_type": "string",
+                "property_values": ["Enabled", "Disabled", "Auto"]
+            }
+        },
+        {
+            "entityType": 120,
+            "containerID": 10,
+            "entityInstance": 2,
+            "sensorOffset": 0,
+            "stateSetId": 2,
+            "event_states": [0, 1, 2],
+            "dbus": {
+                "object_path": "/xyz/abc/ijl",
+                "interface": "xyz.openbmc_project.example7.value",
+                "property_name": "value7",
+                "property_type": "string",
+                "property_values": ["Enabled", "Disabled", "Auto"]
+            }
+        }
+    ]
+}
